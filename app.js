@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const http = require('http').Server(app);
 
+
 const port = process.env.PORT || 3000;
 
 // 루트(/) 경로로 들어오는 HTTP GET 요청을 처리한다. 보라색으로 표현된 코드가 핸들러 
